@@ -1171,6 +1171,10 @@
         right: 10rem;
     }
 
+    .accordion {
+        padding: 70px 20px;
+    }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
