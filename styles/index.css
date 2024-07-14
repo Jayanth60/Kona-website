@@ -1372,6 +1372,10 @@
         overflow: hidden;
     }
 
+    .accordion {
+        padding: 70px 20px;
+    }
+
 }
 
 
