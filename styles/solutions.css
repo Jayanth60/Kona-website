@@ -204,7 +204,7 @@
 
     .blur-1-credit {
         position: absolute;
-        top: 35%;
+        top: 40%;
         left: 15%;
         width: 300px;
     }
@@ -362,9 +362,9 @@
 
     .blur-1-credit {
         position: absolute;
-        top: 16%;
-        left: 5%;
-        width: 600px;
+        top: 40%;
+        left: 15%;
+        width: 300px;
     }
 
     .monitor-div {
