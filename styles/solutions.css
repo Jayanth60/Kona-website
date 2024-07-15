@@ -31,7 +31,7 @@
 
 #navbar-types div p {
   font-size: 20px;
-
+  margin-top: 10px;
 }
 
 #navbar-types li {
@@ -74,7 +74,7 @@ a {
   background-color: transparent;
 }
 
-.btn {
+.btnask {
   background: linear-gradient(90deg, #4e3bbf, #a928d8);
   display: inline-block;
   color: #fff;
@@ -331,11 +331,21 @@ h5 {
   color: #a928d8;
 }
 
-.dail {
-  position: absolute;
-  top: 224rem;
-  right: 0;
+.watsapp {
+  box-shadow: 0 5px 4px 0 rgb(0 0 0 / 26%);
+  background-color: #a429d7;
+  padding: 20px;
+  border-radius: 200px 200px 200px 13px;
+  -moz-border-radius: 200px 200px 200px 13px;
+  -webkit-border-radius: 200px 200px 200px 13px;
+  border: 0px solid #000000;
+}
 
+.watsapp-div {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
 }
 
 .modal-header {
