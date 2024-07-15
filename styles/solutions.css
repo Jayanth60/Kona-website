@@ -105,11 +105,12 @@ a {
 }
 
 #solutions-school h5 {
-  width: 56%;
+  width: 58%;
   font-weight: 400;
   padding: 8px;
   text-align: center;
   border-radius: 22px;
+  color: #0a1767;
   background: linear-gradient(90deg, #ECEAF8 0%, #E9C4E6 28.28%, #D2CDE2 63.13%, #EAEDFB 100%);
 }
 
