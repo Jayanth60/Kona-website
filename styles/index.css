@@ -1136,17 +1136,20 @@
         align-items: center;
         gap: 0px;
         text-align: center;
-        margin-top: 20px;
+        margin-top: 20px; 
+
     }
 
-    .footer .col-3 {
+    .footer .col-4 {
         width: 100%;
+        padding: 10px;
     }
 
-    .footer .col-3 p {
+    .footer .col-4 p {
         padding: 0;
         font-size: 9px;
         overflow: hidden;
+        width: 100%;
     }
 
     .blink-parent #blink-child-1 {
