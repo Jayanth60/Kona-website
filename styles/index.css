@@ -212,10 +212,12 @@
     color: rgb(0, 12, 96);
     border-radius: 10px;
     margin-top: 2rem;
+    transition: all 1s ease-in 1s;
+    transition: color ease-in;
 }
 
 #km-btn:hover {
-    background: rgb(0, 12, 96);
+    background-color: rgb(0, 12, 96);
     color: white;
 }
 

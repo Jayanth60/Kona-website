@@ -1,0 +1,353 @@
+.body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  overflow: hidden;
+  font-family: Poppins, sans-serif;
+}
+
+
+#navbar {
+  margin: 0px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  gap: 5rem;
+  padding: 0px;
+  box-shadow: 0px 0px 0.5px 0px;
+}
+
+#navbar img {
+  width: 100%;
+  padding-left: 180px;
+
+}
+
+#navbar-types {
+  display: flex;
+  gap: 5rem;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+#navbar-types div p {
+  font-size: 20px;
+
+}
+
+#navbar-types li {
+  list-style-type: none;
+}
+
+#navbar-types li:hover {
+  color: #6f42c1;
+  ;
+  cursor: pointer;
+}
+
+.dropdown :hover {
+  color: #6f42c1;
+}
+
+#navbar-types button {
+  color: white;
+  background-color: #6f42c1;
+}
+
+.btn1 {
+  position: relative;
+}
+
+.btn1 {
+  display: inline-block;
+  /* border-image: linear-gradient(#4e3bbf, #a928d8) 30; */
+  border-width: 2px;
+  border-style: solid;
+  padding: 8px 25px;
+  border-radius: 8px;
+  color: #000c60 !important;
+  background-color: white;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.btn {
+  background: linear-gradient(90deg, #4e3bbf, #a928d8);
+  display: inline-block;
+  color: #fff;
+  border: none;
+  padding: 10px 24px !important;
+  border-radius: 8px;
+}
+
+#solutions-container {
+  display: flex;
+  padding-top: 81px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 50px;
+  gap: 4rem;
+}
+
+#solutions-school {
+  text-align: start;
+  padding-top: 80px;
+}
+
+#solutions-school h1 {
+  font-size: 3.5rem;
+  background: linear-gradient(90deg, #8D65E9 0%, #5391E4 48.1%, #6BCD94 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#solutions-school h5 {
+  width: 56%;
+  font-weight: 400;
+  padding: 8px;
+  text-align: center;
+  border-radius: 22px;
+  background: linear-gradient(90deg, #ECEAF8 0%, #E9C4E6 28.28%, #D2CDE2 63.13%, #EAEDFB 100%);
+}
+
+#solutions-dashboard {
+  display: flex;
+  padding-top: 81px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 50px;
+  gap: 4rem;
+}
+
+.solutions-monitor {
+  text-align: start;
+  padding-right: 52px;
+  padding-left: 52px;
+  padding-top: 100px;
+
+}
+
+.solutions-monitor h3 {
+  font-size: 3.5rem;
+  background: linear-gradient(90deg, #8D65E9 0%, #5391E4 48.1%, #6BCD94 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.solutions-monitor h5 {
+  width: 56%;
+  font-weight: 400;
+  padding: 8px;
+  text-align: center;
+  border-radius: 22px;
+  background: linear-gradient(90deg, #ECEAF8 0%, #E9C4E6 28.28%, #D2CDE2 63.13%, #EAEDFB 100%);
+}
+
+.solutions-monitor p {
+  font-size: 17px;
+}
+
+.tickmark {
+  font-size: 17px;
+
+}
+
+.fa-circle-check {
+  color: #8b66ea;
+  font-size: 15px;
+}
+
+#what-container {
+
+  padding-bottom: 9rem;
+  background-image: url("	https://kona-digital.com/images/whatcanbg.svg");
+}
+
+#what-container h1 {
+  text-align: center;
+  background: linear-gradient(90deg, #8D65E9 0%, #5391E4 48.1%, #6BCD94 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-right: 33rem;
+  padding-top: 6rem;
+  font-size: 50px;
+}
+
+#whaticons {
+  list-style-type: none;
+  display: flex;
+  padding-left: 12rem;
+  padding-top: 10rem;
+  gap: 10rem;
+
+}
+
+#platforms-container {
+  text-align: center;
+  padding-top: 5rem;
+}
+
+#platforms-container p {
+  font-size: 20px;
+
+}
+
+#platforms-container h1 {
+  font-size: 50px;
+  font-weight: 500;
+  background: linear-gradient(90deg, #8D65E9 0%, #5391E4 48.1%, #6BCD94 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#platforms ul {
+  display: flex;
+  list-style-type: none;
+  padding-left: 2rem;
+
+}
+
+#platforms li {
+  width: 20%;
+}
+
+#platforms img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+#platforms p,
+h5 {
+  text-align: center;
+}
+
+.li2 {
+  position: relative;
+  top: 12rem;
+  text-align: center;
+}
+
+.li4 {
+  position: relative;
+  top: 12rem;
+}
+
+.li6 {
+  position: relative;
+  top: 12rem;
+}
+
+#accordionPanelsStayOpenExample {
+
+  display: block;
+  width: 100%;
+  padding-left: 17rem;
+  padding-right: 17rem;
+}
+
+#accordian-btn :hover {
+  color: #000c60;
+}
+
+.accordion-button:focus,
+#accordion-button:not(.collapsed) {
+
+  background-color: transparent;
+  box-shadow: none;
+}
+
+#connect {
+  margin-top: 50px;
+}
+
+#lets-connect-container {
+  display: flex;
+  margin-left: 30px;
+  gap: 1rem;
+
+
+}
+
+.accordion-header button {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 20px 0px;
+}
+
+.accordion-button:focus,
+.accordion-button:not(.collapsed) {
+  color: rgb(118, 51, 202);
+  background-color: transparent;
+  box-shadow: none;
+}
+
+
+.accordion {
+  padding: 70px 220px;
+}
+
+#lets-connect-container button {
+  font-size: 20px;
+  font-weight: 200;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #6f42c1;
+  color: white;
+}
+
+#lets-connect {
+  margin: 150px;
+
+
+}
+
+#services-contianer {
+  display: flex;
+  padding-top: 80px;
+  padding: 80px;
+}
+
+#services ul {
+  display: flex;
+
+}
+
+#services h4 {
+  color: #000c60;
+}
+
+#services li {
+  list-style-type: none;
+  line-height: 2.8rem;
+  font-weight: 400;
+}
+
+#services li:hover {
+  cursor: pointer;
+  color: #a928d8;
+}
+
+.dail {
+  position: absolute;
+  top: 224rem;
+  right: 0;
+
+}
+
+.modal-header {
+  background-color: #952cd4;
+  color: #ffff;
+}
+
+.modal-footer {
+  text-align: center;
+  align-items: center;
+}
+
+#accordion-container {
+  padding-top: 200px;
+}
