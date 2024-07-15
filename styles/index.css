@@ -782,11 +782,6 @@
 .modal-header .btn-close {
     color: #fff;
 }
-
-.modal-dialog {
-    /* width: 23rem; */
-}
-
 .modal-body {
     /* padding: 20px 0px 30px 30px; */
     background-color: white;
