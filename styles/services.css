@@ -5,7 +5,7 @@
 .service-info h1 {
     font-size: 35px;
     background: linear-gradient(90deg, #8D65E9 0%, #5391E4 48.1%, #6BCD94 100%);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 500;
 }
@@ -38,7 +38,7 @@
     font-size: 50px;
     font-weight: 500;
     margin: 20px 0 10px;
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
