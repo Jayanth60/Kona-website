@@ -689,7 +689,7 @@
 }
 
 .accordion {
-    padding: 70px 0px;
+    padding: 70px 220px;
 }
 
 .blur-pink {
@@ -1362,6 +1362,12 @@
 
     .corousel-2 .corousel-body {
         padding: 20px 0px;
+    }
+    .accordion {
+        padding: 10px 15px;
+    }
+    .accordion-container div>h1 {
+
     }
 }
 
